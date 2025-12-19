@@ -83,6 +83,13 @@ TROOP_TYPES: Dict[str, TroopType] = {
         housing_cost=1,
         movement_type='ground'
     ),
+        'baby_dragon': TroopType(
+        name='baby_dragon',
+        dps=120.0,
+        health=2358.0,
+        housing_cost=1,
+        movement_type='ground'
+    ),
     'night_witch': TroopType(
         name='night_witch',
         dps=278.0,
